@@ -41,7 +41,7 @@ if(choice=='BookNow'):
         if (st.session_state['button1_pressed']) == 1:
             with st.container():
                 placeholder.empty()
-                st.title('Bem-vindo à KidsLand, onde pode alugar os melhores insufláveis!')
+                st.title('Bem-vindo à KidsLand, onde pode alugar os melhores insufláveis!\n Oferta de Lancamento todos a 75$/Dia!')
                 img = image_select(
                     label="Selecione o seu insuflável favorito!",
                     images=[
